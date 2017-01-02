@@ -29,7 +29,7 @@
 
 Добавить бокс в список для Vagrant
 ```bash
-~/webbox$ vagrant box add build/webbox-virtualbox-iso.box --name webbox
+~/webbox$ vagrant box add build/webbox-virtualbox-iso.box --name web
 ```
 
 После этого можно можно инициализировать и запустить виртуальную машину под управление Vagrant на основе бокса webbox с помощью команд
