@@ -14,26 +14,26 @@
 
 Склонировать репозиторий на свой комьютер
 ```bash
-~$ git clone https://github.com/bskton/webdev.git
+~$ git clone https://github.com/bskton/webbox.git
 ```
 
-Перейти в директорию webdev
+Перейти в директорию webbox
 ```bash
-~$ cd webdev
+~$ cd webbox
 ```
 
 Собрать бокс с помощью packer
 ```bash
-~/webdev$ packer build packer.json
+~/webbox$ packer build packer.json
 ```
 
 Добавить бокс в список для Vagrant
 ```bash
-~/webdev$ vagrant box add build/webdev-virtualbox-iso.box --name webdev
+~/webbox$ vagrant box add build/webbox-virtualbox-iso.box --name webbox
 ```
 
-После этого можно можно инициализировать и запустить виртуальную машину под управление Vagrant на основе бокса webdev с помощью команд
+После этого можно можно инициализировать и запустить виртуальную машину под управление Vagrant на основе бокса webbox с помощью команд
 ```bash
-~/vms/webdev-1$ vagrant init webdev
-~/vms/webdev-1$ vagrant up
+~/vms/webbox-1$ vagrant init webbox
+~/vms/webbox-1$ vagrant up
 ```
