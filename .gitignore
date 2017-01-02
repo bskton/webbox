@@ -1,0 +1,4 @@
+build/
+output-virtualbox-iso/
+packer_cache/
+test/
