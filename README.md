@@ -34,6 +34,6 @@
 
 После этого можно можно инициализировать и запустить виртуальную машину под управление Vagrant на основе бокса webbox с помощью команд
 ```bash
-~/vms/webbox-1$ vagrant init webbox
-~/vms/webbox-1$ vagrant up
+~/vms/web-1$ vagrant init web
+~/vms/web-1$ vagrant up --provider virtualbox
 ```
