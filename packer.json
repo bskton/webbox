@@ -56,6 +56,6 @@
     }],
     "post-processors": [{
         "type": "vagrant",
-        "output": "build/webdev-{{.BuildName}}.box"
+        "output": "build/web-{{.BuildName}}.box"
     }]
 }
